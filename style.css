@@ -1,3 +1,9 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(158, 244, 241);
+}
+
+
 a {
     margin-left: 200px;
     padding-left: 10px;
@@ -5,14 +11,15 @@ a {
     padding-top: 30px;
     padding-bottom: 10px;
     font-size: 50px;
-    color:rgb(158, 244, 241);
+    color:rgb(255, 255, 255);
     font-size: 20px;
     box-shadow: 5px 10px rgb(7, 58, 58, 0.393);
     display:"block";
     position: relative;
+    background-color: rgb(255, 255, 255);
 }
 .header {
-    color:rgb(36, 11, 11);
+    color:rgb(158, 244, 241);
     background-color: rgb(7, 58, 58);
     text-align: center;
     padding-left: 50px;
@@ -29,9 +36,14 @@ a {
 }
 
 .imgPro {
-    border-radius: 50%;
+    border-radius: 50px;
     padding-left: 80px;
     padding-right: 70px;
     padding-bottom: 50px;
     box-shadow: 10px 20px 14px rgb(7, 58, 58, 0.393);
+    opacity: 100%;
+}
+
+#contact {
+    background-color: rgb(158, 244, 241);
 }
